@@ -127,3 +127,7 @@ print("Variables and Data types")
 # txt1 = "Asif's age is 24"
 # txt2 = 'quote"jneajgnaj"'
 # print(txt1,txt2)
+int_var = 342
+float_var = 231.34
+bool_var = True
+com_var = 4 + 3j
