@@ -57,12 +57,54 @@ str3 = '''I love Python'''
 #   print(x)
 #   count=count + 1
 # print("length is ",count)
-for i in range(len(str1)):
-  print(str1[i])
+# for i in range(len(str1)):
+#   print(str1[i])
 
-for j in range(len(str2)):
-  print(str2[j])
+# for j in range(len(str2)):
+#   print(str2[j])
 
-for k in range(len(str3)):
-  print(str3[k])
+# for k in range(len(str3)):
+#   print(str3[k])
   
+#string literal
+# str1 ="""This is a 
+# multiline string and 
+# we are practicing it"""
+# print(str1)
+
+# txt1 = "Asif's"
+# txt2 = 'Probin"s'
+# print(txt1,txt2)
+
+#escape sequences
+# print('Here is a \"')
+# print("Here is a \'")
+# print("Here is a tab \t")
+# print("backslash \\")
+# print("carriage return \r")
+# print("backspace\b")
+
+#indexing and slicing
+# str = "Asif"
+# print(str[0])
+# # str[0]="b"
+# str = "Probin"
+# print(str)
+# # for i in range(1:10:1):
+# #   print(i)
+# s1 = str[1:3:1]
+# print(s1)
+
+# str = "Hi i love python"
+# # print(str[1:8:1])
+# s1 = str[-1:10:-1]
+# print(s1)
+#string operation
+# str1 ="Hi"
+# str2 ="Bro"
+# print(str1 +" "+ str2)
+# print(str1*10)
+# print('apple'<'ball'<'cat'<'dog')
+# print('apple'<'apply')
+# print('cat'<'catch')
+# print("123"<'abc'<'ABC')
