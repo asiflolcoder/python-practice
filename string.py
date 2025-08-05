@@ -21,3 +21,48 @@ str3 = '''Hello Bro'''
 
 # for i in range(len(str3)):
 #   print(str3[i])
+
+#string - collextion of characters enclosed in '',"",''''''
+str1 = 'Hello Python'
+str2 = "Hello Bro"
+str3 = '''I love Python'''
+# print(str1,type(str1))
+# print(str2,type(str2))
+# print(str3,type(str3))
+
+# print(str1[2])
+# print(str2[0])
+# print(str3[2])
+#python supports negative indexes
+# print(str1[-1])
+# print(str2[-3])
+# print(str3[-5])
+# len1 = len(str1)
+# len2 = len(str2)
+# len3 = len(str3)
+# print(len1,len2,len3)
+#counting length with for loop
+# count =0
+# for x in str1:
+#   print(x)
+#   count=count + 1
+# print("length is ",count)
+# count =0
+# for x in str2:
+#   print(x)
+#   count=count + 1
+# print("length is ",count)
+# count =0
+# for x in str3:
+#   print(x)
+#   count=count + 1
+# print("length is ",count)
+for i in range(len(str1)):
+  print(str1[i])
+
+for j in range(len(str2)):
+  print(str2[j])
+
+for k in range(len(str3)):
+  print(str3[k])
+  
