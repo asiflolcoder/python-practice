@@ -127,7 +127,77 @@ print("Variables and Data types")
 # txt1 = "Asif's age is 24"
 # txt2 = 'quote"jneajgnaj"'
 # print(txt1,txt2)
-int_var = 342
-float_var = 231.34
-bool_var = True
-com_var = 4 + 3j
+# int_var = 342
+# float_var = 231.34
+# bool_var = True
+# com_var = 4 + 3j
+#base conversion
+# num = 140
+# print(bin(num))
+# print(oct(num))
+# print(hex(num))
+# str = '23'
+# print(int(str),type(str))
+# s1 = bin(True)
+# s2 = bin(False)
+# print(s1,s2)
+# x= 0o345
+# print(bin(x))
+# print(int(x))
+# print(hex(x))
+# num = '343'
+# print(int(num))
+# print(float(num))
+# print(bool(num))
+# print(complex(num))
+#base conversion
+# num = 3442
+# x = bin(num)
+# y = oct(num)
+# z = hex(num)
+# print(x,type(x))
+# print(y,type(y))
+# print(z,type(z))
+
+#type conversion- int,float,bool,complex,str
+# print(int('23'))
+# print(int(13.34))
+# print(int(True))
+# #print(int('Alexa'))#have to give valid string
+# print(int(2+3j))
+#float - supports all except complex
+
+# num = 45
+# x = float(num)
+# x1 = float(True)
+# y = float(False)
+# z = float('23')
+# # p = float(2+3j)
+# print(x,x1,y,z)
+#bool-supports all size
+# x = bool(12)
+# y = bool(23.4)
+# z = bool(False)
+# p = bool('')
+# q = bool(0)
+# r = bool("Asif")
+# a = bool(2+3j)
+# print(x,y,z,p,q,r,a)
+# print(type(x),type(y),type(z),type(p),type(q),type(r),type(a))
+#complex - supports all with valid string
+# a = complex(233)
+# b = complex(211.344)
+# c = complex(True)
+# d = complex(False)
+
+# f = complex('12+3j')
+# # print(a,b,c,d,e,f)
+# print(type(a),type(b),type(c),type(d),type(f))
+
+#str - supports all data type
+# a = str(232)
+# b = str(232.11)
+# c = str(True)
+# d = str(False)
+# e = str(23+3j)
+# print(a,b,c,d,e)
