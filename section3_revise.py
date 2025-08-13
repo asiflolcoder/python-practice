@@ -1,3 +1,4 @@
+import sys
 print("Variable and data type revise")
 #section 3 revise - data type 
 #calculate biil amount
@@ -55,3 +56,58 @@ print("Variable and data type revise")
 # l[2] ="Emon"
 # l[3] = False
 # print(l)
+
+# t=(23,44,22.33,True)
+# for i in range(len(t)):
+#   print(t[i])
+  
+# t[0] = 100
+
+# str ="I love python"
+# for i in range(len(str)):
+#   print(str[i])
+
+# str[0] ='U'
+# str[3] = "A"
+
+#set 
+# set_var ={23,23,11,34,True}
+# print(set_var)
+# set_var = 100
+# print(set_var)
+
+# set1 ={23,22,11,44}
+# set1.add(100)
+# print(set1)
+
+#dictionary - collection of key value pair format
+# dic ={
+#   "name":"Asif",
+#   "roll":232311167,
+#   "dept":"Cse"
+# }
+# print(dic)
+
+#numeric type - all types are immutable
+x = 1013883393300
+print(sys.getsizeof(x))
+f = 23422.63355
+print(sys.getsizeof(f))
+b = True
+print(sys.getsizeof(b))
+
+f1 = 23e-3
+print(f1)
+f2 = 23E-2
+print(f2)
+
+int1 = 23e3
+print(int1)
+
+bool1 = True 
+bool2 = False
+print(bool1,bool2)
+print(int(bool1),int(bool2))
+
+print(complex(2,1))
+
