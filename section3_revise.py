@@ -89,25 +89,80 @@ print("Variable and data type revise")
 # print(dic)
 
 #numeric type - all types are immutable
-x = 1013883393300
-print(sys.getsizeof(x))
-f = 23422.63355
-print(sys.getsizeof(f))
-b = True
-print(sys.getsizeof(b))
+# x = 1013883393300
+# print(sys.getsizeof(x))
+# f = 23422.63355
+# print(sys.getsizeof(f))
+# b = True
+# print(sys.getsizeof(b))
 
-f1 = 23e-3
-print(f1)
-f2 = 23E-2
-print(f2)
+# f1 = 23e-3
+# print(f1)
+# f2 = 23E-2
+# print(f2)
 
-int1 = 23e3
-print(int1)
+# int1 = 23e3
+# print(int1)
 
-bool1 = True 
-bool2 = False
-print(bool1,bool2)
-print(int(bool1),int(bool2))
+# bool1 = True 
+# bool2 = False
+# print(bool1,bool2)
+# print(int(bool1),int(bool2))
 
-print(complex(2,1))
+# print(complex(2,1))
 
+# int_a = 232_34_34
+# print(int_a)
+# float_a = 232.443_242_232
+# print(float_a)
+
+# dec = 342
+# binary = bin(dec)
+# octal = oct(dec)
+# hexadecimal = hex(dec)
+# print(binary,octal,hexadecimal)
+
+# decimal = dec(0b1010)
+# print(decimal)
+
+#binary to hexadecimal
+# int1 = 100
+# bin1 = bin(int1)
+# print(bin1)
+
+# num ='0b1100100'
+# int2 = dec(num)
+
+#type conversion
+
+# print(int(132))
+# print(int(233.442))
+# print(int(True))
+# print(int(False))
+# print(int("234"))
+# # print(int(3+3j))
+
+# print(float(234))
+# print(float(23.42))
+# print(float(True))
+# print(float(False))
+# # print(float(4+4j))
+# print(float("23.45"))
+
+# print(bool(1233))
+# print(bool(223.442))
+# print(bool(True))
+# print(bool("Asif"))
+# print(bool(2+3j))
+
+# print(complex(23))
+# print(complex(12.34))
+# print(complex(True))
+# print(complex(False))
+# print(complex("2+3j"))\
+  
+# print(str(232))
+# print(str(23.42))
+# print(str(True))
+# print(str(False))
+# print(str(2+4j))
