@@ -39,3 +39,57 @@ print("operators and expression revise")
 # print(a)
 
  
+#assignment operator
+# num1 = 24
+# num1+=12
+# print(num1)
+
+# num1 -= 20
+# print(num1)
+
+# num1*=10
+# print(num1)
+
+# num1 /= 5
+# print(num1)
+
+# num1 %=3
+# print(num1)
+
+#str er shudhu +,* hoy r bakigula hoy na
+
+#float + float = float
+
+# num1 = 20
+# num2 = 30
+# op1 = num1 + num2
+# op2 = num1 - num2
+# op3 = num1 * num2
+# op4 = num1 / num2
+# op5 = num1 // num2 
+# op6 = num1 % num2
+# op7 = num1 ** num2 
+# print(op1)
+# print(op2)
+# print(op3)
+# print(op4)
+# print(op5)
+# print(op6)
+# print(op7)
+
+num1 = 20
+num2 = 30
+op1 = num1 + num2
+op2 = num1 - num2
+op3 = num1 * num2
+op4 = num1 / num2
+op5 = num1 // num2 
+op6 = num1 % num2
+op7 = num1 ** num2 
+print(op1)
+print(op2)
+print(op3)
+print(op4)
+print(op5)
+print(op6)
+print(op7)
