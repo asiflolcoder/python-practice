@@ -77,19 +77,101 @@ print("operators and expression revise")
 # print(op6)
 # print(op7)
 
-num1 = 20
-num2 = 30
-op1 = num1 + num2
-op2 = num1 - num2
-op3 = num1 * num2
-op4 = num1 / num2
-op5 = num1 // num2 
-op6 = num1 % num2
-op7 = num1 ** num2 
-print(op1)
-print(op2)
-print(op3)
-print(op4)
-print(op5)
-print(op6)
-print(op7)
+# num1 = 20.45
+# num2 = 5.43
+# op1 = num1 + num2
+# op2 = num1 - num2
+# op3 = num1 * num2
+# op4 = num1 / num2
+# op5 = num1 // num2 
+# op6 = num1 % num2
+# op7 = num1 ** num2 
+# print(op1)
+# print(op2)
+# print(op3)
+# print(op4)
+# print(op5)
+# print(op6)
+# print(op7)
+
+# num1 = True
+# num2 = True
+# op1 = num1 + num2
+# op2 = num1 - num2
+# op3 = num1 * num2
+# op4 = num1 / num2
+# op5 = num1 // num2 
+# op6 = num1 % num2
+# op7 = num1 ** num2 
+# print(op1)
+# print(op2)
+# print(op3)
+# print(op4)
+# print(op5)
+# print(op6)
+# print(op7)
+
+# num1 = 4 + 5j
+# num2 = 3+4j
+# op1 = num1 + num2
+# op2 = num1 - num2
+# op3 = num1 * num2
+# op4 = num1 / num2
+# # op5 = num1 // num2 
+# # op6 = num1 % num2
+# # op7 = num1 ** num2 
+# print(op1)
+# print(op2)
+# print(op3)
+# print(op4)
+# print(op5)
+# print(op6)
+# print(op7)
+
+# num1 = "Asif"
+# num2 = "Emon"
+# op1 = num1 + num2
+# # op2 = num1 - num2
+# op3 = num1 * num2
+# # op4 = num1 / num2
+# # op5 = num1 // num2 
+# # op6 = num1 % num2
+# # op7 = num1 ** num2 
+# print(op1)
+# print(op2)
+# print(op3)
+# print(op4)
+# print(op5)
+# print(op6)
+# print(op7)
+
+#string concatenation 
+str1 = "Hello"
+str2 = "World"
+
+s1 = str1 +" "+ str2
+print(s1)
+
+# print("Asif"+"23")
+# print("12"+12)
+
+#in python ,concatenation happens if they are both string
+
+#multiplications
+# str1 = "Asif"
+# num = 4
+# multi = str1 * num
+# print(multi)
+
+# c = "abc"
+# print(c*2)
+
+import math
+a = 1
+b = -5
+c = 6
+
+x1 = (-b + math.sqrt(b*b - 4 * a * c))/(2*a)
+x2 = (-b - math.sqrt(b*b - 4 * a * c))/(2*a)
+
+print(x1,x2)
