@@ -75,3 +75,44 @@ else:
 # print("Asif" and 99)
 # print("Asif" or 99)
 
+#problem 1
+# j_angry = True
+# s_angry = True
+# if j_angry and s_angry:
+#   print("True")
+# else:
+#   print("False")
+  
+# if x % 2 ==0:
+#   return "Even"
+# else:
+#   return "Odd"
+
+
+# if "cat" in str:
+#   print("True")
+# else:
+#   print("False")c
+str = "bazingaa"
+
+# cat_num = 0
+# hat_num = 0
+
+# if "cat" in str:
+#   cat_num+=1
+# if "hat" in str:
+#   hat_num=+1
+
+# if cat_num == hat_num:
+#   print("True")
+# else:
+#   print("False")
+
+def bigNumber(a):
+  if a >100:
+    print("Big")
+  else:
+    print("Number")
+  
+a = int(input())
+bigNumber(a)
