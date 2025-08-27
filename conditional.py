@@ -29,3 +29,49 @@ else:
     print("Negative")
     
 #calcutor match program
+
+# num1 = int(input("Enter a number:"))
+# num2 = int(input("Enter another number:"))
+# op = input("Enter an operator:")
+# match op:
+#   case "+":
+#     print(num1+num2)
+#   case "-":
+#     print(num1-num2)
+#   case "*":
+#     print(num1*num2)
+#   case "/":
+#     print(num1/num2)
+#   case _ :
+#     print("Operation invalid")
+  
+age = 10
+member = True
+if age > 18:
+  if member:
+    print("Ticket price in $12")
+  else:
+    print("Ticket price in $20")
+else:
+  if member:
+    print("Ticket price is $8")
+  else:
+    print("Ticket price is $10")
+    
+#if else in one line
+
+# x = 10
+# y = 5
+# res = "x is greater" if x > y else "y is greater"
+# print(res)
+
+# budget = 60
+# price = 9.99
+# if budget >= 50 and price <=10:
+#   print("Buy 3 pieces")
+# if budget >=100 and price <=20:
+#   print("Buy two pieces")
+
+# print("Asif" and 99)
+# print("Asif" or 99)
+
