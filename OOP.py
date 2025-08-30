@@ -38,15 +38,37 @@ print("Hello OOP")
 # s1 = Student()
 # print(id(s1))
 
-class Student:
-  def __init__(self,name,id,profession):
-    self.name = name
-    self.id = id
-    self.is_student = profession
-    print("Object is created")
-    print(f"name is {self.name} id is {self.id} profession is {self.is_student}")
+# class Student:
+#   def __init__(self,name,id,profession):
+#     self.name = name
+#     self.id = id
+#     self.is_student = profession
+#     print("Object is created")
+#     print(f"name is {self.name} id is {self.id} profession is {self.is_student}")
     
-s1 = Student("Asif",2323,"Student")
-s2 = Student("Arfi",3433,"Baby")
-print(s1.name,s1.id,s1.is_student)
-print(s2.name,s2.id,s2.is_student)
+# s1 = Student("Asif",2323,"Student")
+# s2 = Student("Arfi",3433,"Baby")
+# print(s1.name,s1.id,s1.is_student)
+# print(s2.name,s2.id,s2.is_student)
+
+# class Car:
+#   def __init__(self,name,color,seat):
+#     self.color = color
+#     self.brand = name
+#     self.seats = seat
+#     print(f"The car brand: {self.brand} color is :{self.color} seats : {self.seats} ")
+    
+# BMW = Car("BMW","black",2)
+# Audi = Car("Audi","White",4)
+
+# class ComplexNumber:
+#   def __init__(self,real,imaginary):
+#     self.real = complex(real)
+#     self.imaginary = complex(imaginary)
+#     # print(f"{int(self.real)} + {int(self.imaginary)}j")
+#     print(self.real + self.imaginary)
+#   def addition(self):
+#     print()
+    
+# num1 = ComplexNumber(3,5)
+# print(type(num1))
