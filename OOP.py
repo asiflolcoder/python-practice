@@ -72,3 +72,56 @@ print("Hello OOP")
     
 # num1 = ComplexNumber(3,5)
 # print(type(num1))
+
+#OOP revise
+# seller1_name = "Md Asif"
+# seller1_address = "Rajshahi"
+# seller1_money = 234
+
+# seller2_name = "Emon"
+# seller2_address = "Kushtia"
+# seller2_money = 433
+
+# print(type(233))
+# print(type(23.34))
+# print(type(True))
+# print(type([23,22,1,2]))
+# print(type((2,33,22))
+# print(type({"name":"Asif"}))
+
+# class Car:
+#   pass
+
+# BMW = Car()
+# print(BMW)
+
+# class Student:
+#   def __init__(self):
+#     self.name = "Asif"
+#     self.id = 2323
+#     # print(id(arg))
+#     print("Student object created")
+
+# s1 = Student()
+# print(s1.name,s1.id)
+
+# class Car:
+#   def __init__(self):
+#     self.name = "BMW"
+#     self.model = "X4"
+#     self.seats = 4
+#     print(f"{self.name}:{self.model} and {self.seats} seaters")
+  
+# bmw_obj = Car()
+# # print(bmw_obj)
+# audi_obj = Car()
+
+class Car:
+  def __init__(self,name,model,seat):
+    self.company_name = name
+    self.car_model = model
+    self.seats = seat
+    print(f"{self.company_name}:{self.car_model} and {self.seats} seater")
+  
+bmw = Car("BMW",'X6',5)
+audi = Car("Audi",'R8',2)
