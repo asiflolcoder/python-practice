@@ -116,12 +116,13 @@ print("Hello OOP")
 # # print(bmw_obj)
 # audi_obj = Car()
 
-class Car:
-  def __init__(self,name,model,seat):
-    self.company_name = name
-    self.car_model = model
-    self.seats = seat
-    print(f"{self.company_name}:{self.car_model} and {self.seats} seater")
+# class Car:
+#   def __init__(self,name,model,seat):
+#     self.company_name = name
+#     self.car_model = model
+#     self.seats = seat
+#     print(f"{self.company_name}:{self.car_model} and {self.seats} seater")
   
-bmw = Car("BMW",'X6',5)
-audi = Car("Audi",'R8',2)
+# bmw = Car("BMW",'X6',5)
+# audi = Car("Audi",'R8',2)
+

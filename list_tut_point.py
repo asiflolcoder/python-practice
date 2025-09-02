@@ -49,28 +49,71 @@ print("Everything about list from Tutorialspoint")
 # l2[0:3]=l3
 # print(l2)
 
-l1 = ["a","b","c","d","e"]
-l2 = [2,4,5]
-# l1[0:4]=l2
+# l1 = ["a","b","c","d","e"]
+# l2 = [2,4,5]
+# # l1[0:4]=l2
+# # print(l1)
+# l1[1:3]=l2
 # print(l1)
-l1[1:3]=l2
-print(l1)
 
-#adding a element in last
-fruits = ["Apple","Banana","Mango","Date"]
-fruits.append("Watermelon")
-print(fruits)
+# #adding a element in last
+# fruits = ["Apple","Banana","Mango","Date"]
+# fruits.append("Watermelon")
+# print(fruits)
 
-fruits.insert(0,"Dragon Fruit")
-fruits.insert(3,"Berry")
-print(fruits)
+# fruits.insert(0,"Dragon Fruit")
+# fruits.insert(3,"Berry")
+# print(fruits)
 
-id = [2323,1232,4231]
-names =["Asif","Probin","Emon"]
-id.extend(names)
-print(id)
+# id = [2323,1232,4231]
+# names =["Asif","Probin","Emon"]
+# id.extend(names)
+# print(id)
 
-list1 = [1,2,3,4,5]
-list2 = [10,20,30,40]
-list1.extend(list2)
-print(list1)
+# list1 = [1,2,3,4,5]
+# list2 = [10,20,30,40]
+# list1.extend(list2)
+# print(list1)
+
+# l1 = [1,2,3,4,5]
+# l1.remove(3)
+# print(l1)
+# l1 = [1,3,3,2,1]
+# l1.remove(3)
+# print(l1)
+
+# l1 = [23,34,22,11,2]
+# # print(l1.pop())
+# # print(l1)
+# l1.pop(2)
+# print(l1)
+
+# l2 = ["Urmi","Monika","Sadia","Mow"]
+# # l2.pop()
+# # print(l2)
+# l2.pop(1)
+# print(l2)
+# l2.clear()
+# print(l2)
+# l1.clear()
+# print(l1)
+
+# l2 = [12,232,23,112,23,2]
+# del l2[0]
+# del l2[3]
+# print(l2)
+
+# l2 = ["Asif",True,23.44,2+3j]
+# del l2[0:2]
+# print(l2)
+
+list1 = [23,22,"Asif",True,4.99]
+for item in list1:
+  print(item,end=' ')
+  
+index = 0
+while index < len(list1):
+  print(list1[index])
+  index = index + 1
+  
+  
