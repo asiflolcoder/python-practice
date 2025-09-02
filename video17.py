@@ -39,5 +39,3 @@ Complex is better than complicated.
 # dic = {"name":"Asif","age":24,"is_student":False}
 # for key in dic:
 #   print(key,":",dic[key])
-
-#for else loop
