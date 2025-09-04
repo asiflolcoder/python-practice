@@ -44,3 +44,41 @@ print("Data Science Mentorship Program - Class 1")
 # sub = num1 - num2
 # print(sub)
 
+#type conversion
+# var1 = "23"
+# print(int(var1))
+# print(10+10.5)
+
+# print(int('24')+24)
+ 
+# print(int(True))
+# print(int(False))
+
+#python literal
+int1 = 0b1010
+int2 = 100
+int3 = 0o302
+int4 = 0x16e
+print(int1,int2,int3,int4)
+
+float1 = 23.4353
+float2 = 10.5e4
+float3 = 13e-4
+print(float1,float2,float3)
+
+complex1 = 2+3j
+complex2 = complex(3,4)
+print(complex1,complex2)
+
+bool1 = True
+bool2 = False
+
+print(bool1+3,bool2-2)
+
+str1 = 'Hello asif'
+str2 = "Hello Arfi"
+str3 = '''Hello Asma'''
+print(str1,str2,str3)
+
+a = None
+print(type(a))
