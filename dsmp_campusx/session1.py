@@ -31,15 +31,16 @@ print("Data Science Mentorship Program - Class 1")
 # print(dict1,type(dict1))
 # print(null,type(null))
 
-a = 323
-print(a)
-a ="Asif"
-print(a)
+# a = 323
+# print(a)
+# a ="Asif"
+# print(a)
 
-a,b,c = 12,"Asif",24
-p=q=r =45
+# a,b,c = 12,"Asif",24
+# p=q=r =45
 
-num1 = int(input("Enter a number:"))
-num2 = int(input("Enter another number:"))
-sub = num1 - num2
-print(sub)
+# num1 = int(input("Enter a number:"))
+# num2 = int(input("Enter another number:"))
+# sub = num1 - num2
+# print(sub)
+
