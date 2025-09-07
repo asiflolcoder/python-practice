@@ -35,3 +35,26 @@
 #   print("Cannot form a triangle")
 
 #question 3
+# Problem 3: Write a program that will take user input of cost price and selling price and determines whether its a loss or a profit.
+
+# cost_price = int(input("Enter cost price:"))
+# selling_price = int(input("Enter selling price:"))
+
+# if selling_price > cost_price:
+#   print("Profit")
+# elif selling_price == cost_price:
+#   print("No profit or loss")
+# else:
+#   print("Loss")
+
+# # Problem 6 - Find the factorial of a given number.
+# num = int(input("Enter a number:"))
+# fact = 1
+# if num < 0 :
+#   print("Factorial doesn't exist for negative")
+# elif num ==0:
+#   print("The factorial is 1")
+# else:
+#   for i in range(1,num+1):
+#     fact *= i
+#   print(fact)
