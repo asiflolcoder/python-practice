@@ -4,7 +4,7 @@
 # "Data" "Science" "Mentorship" "Program" 
 # "By" "CampusX"
 
-print("Data","Science","Mentorship","Program","Started","By","CampusX",sep="-",end='')
+# print("Data","Science","Mentorship","Program","Started","By","CampusX",sep="-",end='')
 
 # Q2:- Write a program that will convert celsius value to fahrenheit.
 # Write your code here
@@ -50,11 +50,11 @@ print("Data","Science","Mentorship","Program","Started","By","CampusX",sep="-",e
 
 
 # Q6:- Write a program that will tell the number of dogs and chicken are there when the user will provide the value of total heads and legs.
-#input from user
-# head = int(input("Enter amount of heads:"))
-# leg = int(input("Enter amount of legs:"))
-# #calculation
-# dog = 
+input from user
+head = int(input("Enter amount of heads:"))
+leg = int(input("Enter amount of legs:"))
+#calculation
+dog =
 
 # Q7:- Write a program to find the sum of squares of first n natural numbers where n will be provided by the user.
 #input from user
@@ -76,11 +76,28 @@ print("Data","Science","Mentorship","Program","Started","By","CampusX",sep="-",e
 # l = num1 + (n - 1)* diff 
 # print("n th term:",l)
 
-num1 = int(input("Enter numerator:"))
-den1 = int(input("Enter a denominator:"))
+# Q9:- Given 2 fractions, find the sum of those 2 fractions.Take the numerator and denominator values of the fractions from the user.
+# num1 = float(input("Enter numerator:"))
+# den1 = float(input("Enter a denominator:"))
 
-num2 = int(input("Enter numerator:"))
-den2 = int(input("Enter a denominator:"))
+# num2 = float(input("Enter numerator:"))
+# den2 = float(input("Enter a denominator:"))
 
-sum = (num1 * den2 + num2 * den1)/(den1 * den2)
-print("Sum of two fraction:",sum)
+# sum = (num1 * den2 + num2 * den1)/(den1 * den2)
+# print("Sum of two fraction:",sum)
+
+# Q10:- Given the height, width and breadth of a milk tank, you have to find out how many glasses of milk can be obtained? Assume all the inputs are provided by the user.
+
+import math
+height = float(input("Enter height:"))
+width = float(input("Enter width:"))
+breadth = float(input("Enter breadth:"))
+
+vol = height * width * breadth
+
+glass_h = float(input("Enter glass height"))
+glass_r =float(input("Enter glass radius"))
+glass_v = math.pi * glass_h * (glass_r**2)
+
+glass_num =math.floor(vol / glass_v)
+print("number of glasses:",glass_num)
