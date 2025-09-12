@@ -58,3 +58,21 @@
 #   for i in range(1,num+1):
 #     fact *= i
 #   print(fact)
+
+num = int(input("Enter a number:"))
+
+# while num !=0:
+#   dig = num % 10
+#   print(dig,end='')
+#   num = num //10
+  
+li = []
+while num % 10 !=0:
+  dig = num % 10
+  li.append(dig)
+  num = num //10
+
+print(li)
+str =""
+str.join(li)
+print(str)
