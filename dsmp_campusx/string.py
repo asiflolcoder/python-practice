@@ -62,9 +62,52 @@ s1 = "hello world"
 # str ='abc'
 # print(str*10)
 # print("*"*50)
-print('Dhaka'=='Kushtia')
-print("Dhaka"=="Dhaka")
-print("Dhaka"=="dhaka")
-print("Dhaka"!="Dhaka")
-print("Kushtia">"Dhaka")
-print('Pune'>'pune')
+# print('Dhaka'=='Kushtia')
+# print("Dhaka"=="Dhaka")
+# print("Dhaka"=="dhaka")
+# print("Dhaka"!="Dhaka")
+# print("Kushtia">"Dhaka")
+# print('Pune'>'pune')
+
+#logical operator
+# print('hello' and 'world')
+# print('Hello' or "World")
+# print('' and 'Hi')
+# print('' or 'World')
+# print(not '')
+# print(not 'Asif')
+
+#loops in strings
+# str1 = "Hello Python"
+# # for x in str1:
+# #   print("Asif")
+
+# for x in range(len(str1)):
+#   print(str1[x])
+  
+# #membership operator
+# print('i' in 'Delhi')
+# print('E' not in 'Eagle')
+# print('e' in 'Eagl')
+
+#string functions
+# print(len("I love Python"))
+# print(max("Maximum Character"))
+# print(min("HelloBangladesh"))
+# print(sum("Asif"))
+
+#string functions
+# s = "hello World"
+# #capitalize - sentence er 1st word capital kore
+# print(s.capitalize())
+# print("course createb by campusx".title())
+# #title - sentence er protita word er 1st letter capital kore
+# print(s.title())
+# print("course created by campusx".title())
+
+# #upper - converts all character to upper
+# print("Uppercase values".upper())
+# print("Bangladesh".upper())
+
+# print("lowercase values".lower())
+# print("lowercase".lower())
