@@ -53,4 +53,18 @@ s1 = "hello world"
 # s1 = ''.join(li)
 # print(s1)
 
+#operations on string
+# f_name = "Md Asif"
+# l_name = "ul Haque"
+# print(f_name+" "+l_name)
 
+# print("HI"*5)
+# str ='abc'
+# print(str*10)
+# print("*"*50)
+print('Dhaka'=='Kushtia')
+print("Dhaka"=="Dhaka")
+print("Dhaka"=="dhaka")
+print("Dhaka"!="Dhaka")
+print("Kushtia">"Dhaka")
+print('Pune'>'pune')
