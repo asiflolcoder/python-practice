@@ -40,7 +40,7 @@ str1 = "Hello Python"
 str1 ="Hello Bangladesh"
 # for i in range(len(str1)):
 #   print(str1[i])
-print(str1)
+# print(str1)
 # del str1[1:4]
 # del str1
 # print(str1)
@@ -59,3 +59,74 @@ print(str1)
 
 # print("Hi" in "Hi Bangladesh")
 
+#relational operator on string
+# s1 = "Asif"
+# s2 = "Probin"
+# print(s1 > s2)
+# print("cat">="CAT")
+# print("Mumbai" < "Pune")
+# print("Pune" <= "PUNE")
+# print("Mumbai"=="MUMBAI")
+# print("Mumbai"=="Mumbai")
+
+#logical operator on string
+
+# print("Asif" and "Hasan")
+# print(0 and "Asif")
+# print("Asif" or "Asifa")
+# print(False or "Asif")
+# print(not "Asif")
+# print(not True)
+
+# print(not "")
+
+#membership - in/not in
+# print("D" in "Delhi")
+# print("D" not in "Asif")
+# print("A" not in "Asif")
+
+#string methods-min,max,len,sorted
+str1 = "Hello Bro"
+# length = len(str1)
+# print(length)
+
+# upper = str1.upper()
+# print(upper)
+
+# lower = str1.lower()
+# print(lower)
+
+# min_char = min(str1)
+# print(min_char)
+# print(max("Hello World"))
+# print(min("Hello World"))
+# str2 = "Bangladesh"
+# min_char = min(str2)
+# max_char = max(str2)
+# print(min_char,max_char)
+
+#capitalize,title,upper,lower
+# str1 = "hello asif"
+# print(str1.capitalize())
+# print("i am 24".capitalize())
+
+# print(str1.title())
+# print("i am 24 year old".title())
+
+# print("asif is straight".upper())
+# print("Asif is 24 YEARS old".lower())
+
+#strings revise
+# s1 = "Hello Python"
+# s2 = 'Hello Bro'
+# s3 = """
+# Hello 
+# I am a multiline string
+# """
+
+# print(s1,s2,s3)
+# print("Hi I am 24 year's old")
+# print('I am 24 year"s old')
+
+# s4 = str("23")
+# print(s4,type(s4))
