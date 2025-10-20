@@ -222,3 +222,49 @@ s1 = "John Doe"
 # print(s1)
 
 #operators on string
+#arithmetic - +,*
+#concatenation = +
+# f_name ="Md Asif"
+# l_name ="ul Haque"
+# full_name = f_name + l_name
+# print(full_name)
+# print("Bheramara"+","+"Kushtia")
+# print("Asif"+"23")
+
+#multiplication = *
+# print("Hi"*5)
+# print("Hello world"*10,sep='-')
+
+#relational operator/comparison operator
+# print("Asif" > "Probin")
+# print("Asif" >="asif")
+# print("Dhaka" < "Rajshahi")
+# print("Book" <= "Pen")
+# print("Mumbai" < "Delhi")
+# print("Mumbai" < "Pune")
+# print("Pune">'pune')
+# print("Asif" < "asif")
+# print("pune"<"rajastan")
+# print("Asif"=="asif")
+# print("Asif"=="Asif")
+# print("Mumbai"!="Delhi")
+# print("")
+
+# print("Asif" and "Probin")
+# print("" and "Emon")
+# print("Asif" or "Setu")
+# print("" or "Asif")
+
+# print("")
+# print(not "")
+# print(not "Asif")
+# print("Hi" or "bangladesh")
+# print(False and "Python")
+# print("Java" and "Script")
+# print(False or "True")
+
+#membership operator - in/not in
+# print("D" in "Delhi")
+# print("d" in "Delhi")
+# print("a" not in "Asif")
+# print("b" not in "boss")
