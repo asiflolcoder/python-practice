@@ -184,5 +184,41 @@ s1 = "John Doe"
 # # print(s1[18])
 # print(s1[len(s1)-5])
 
+#slicing -[::](slicing operator)
+# s1 = "Hello Bangladesh"
+# s2 = s1[1:5:1]
+# print(s2)
+# s3 = s1[:6]
+# print(s3)
+# s4 = s1[::]
+# print(s4)
+# s5 = s1[::-1]
+# print(s5)
+# print(s1[:])
+# print(s1[:6:-1])
 
+# s1 = "Hello Python"
+# print(s1[-5:])
+# print(s1[-5:-4])
+# print(s1[-7:-4])
+# print(s1[-11:-5])
 
+#string iteration
+# s1 = "I am Asif"
+# for x in s1:
+#   print(x)
+
+# for i in range(len(s1)):
+#   print(s1[i])
+
+# for i in range(len(s1)-1,-1,-1):
+#   print(s1[i])
+
+#edit and delete a string
+# s1 = "hello Asif"
+# # s1[4] = "A"
+# print(s1)
+# del s1
+# print(s1)
+
+#operators on string
