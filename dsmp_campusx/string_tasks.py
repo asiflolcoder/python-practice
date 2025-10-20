@@ -28,8 +28,33 @@ else:
 # title_case = s1.title()
 # print(title_case)
 
-s1 = "welcome to python"
+# s1 = "welcome to python"
+
+# str = "hello"
+# x="llo"
+
+# def titleIt(str):
+#   return str.title()
+
+# def casesSwap(str):
+#   return str.swapcase()
+
+# def find(str,x):
+#   return str.find(x)
+
+# print(titleIt(str))
+# print(casesSwap(str))
+# print(find(str,x))
 
 
+# s1 =[]
+# for x in s:
+#   for y in s:
+#     if  x !=y:
+#       s1.append(x)
+    
+# print(s1)
+      
+# s = "geEksforGEeks"
+# l = []
 
-#
