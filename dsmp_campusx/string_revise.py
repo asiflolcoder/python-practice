@@ -130,3 +130,59 @@ str1 = "Hello Bro"
 
 # s4 = str("23")
 # print(s4,type(s4))
+
+#reverse a string
+# s1 = "Hello Python"
+# for i in range(len(s1)-1,-1,-1):
+#   print(s1[i],end="")
+
+#accessing a string-index
+s1 = "John Doe"
+# print(s1[0])
+# print(s1[2])
+# print(s1[3])
+# print(s1[-1])
+# print(s1[-5])
+# print(s1[10])
+# print(s1[len(s1)-5])
+# print(s1[len(s1)-7])
+
+#string slicing[:]- slicing operator
+# s1 = "Hello Python"
+# print(s1[:])
+# print(s1[::-1])
+# print(s1[2:4])
+# print(s1[1:7:2])
+# print(s1[:-5:-1])
+# print(s1[-5:])
+# print(s1[])
+
+#String and string methods
+# str1 = "Hello Python"
+# str2 = 'Hello Bro'
+# str3 = '''Hello Asif'''
+# print(str1,str2,str3,end='\n',sep='\n')
+
+# str4 = "I am 24 year's old"
+# str5 = 'I am 24 year"s old'
+# multiline_str = """Hi
+# I am Asif
+# Hi 
+# I am Probin
+# """
+# print(str4)
+# print(str5)
+# print(multiline_str)
+
+# num = 24
+# num_str = str(num)
+# print(type(num_str))
+
+#accessing charaters in string - index
+# s1 = "Hello Bangladesh"
+# print(s1[0],s1[7])
+# # print(s1[18])
+# print(s1[len(s1)-5])
+
+
+

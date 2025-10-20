@@ -67,3 +67,69 @@ print("Operators and control flow")
 # print(not False)
 
 #bitwise operator - performs on bits
+
+#operators-symbols that perform calculations
+# num1 = 20
+# num2 = 30
+# a = num1 + num2
+# #arithmetic operator - (+,-,*,/,%,//,**)
+# sum = num1 + num2
+# print(sum)
+# sub = num1 - num2
+# print(sub)
+# multi = num1 * num2
+# print(multi)
+# div = num1 / num2
+# print(div)
+# flo = num2 //num1
+# print(flo)
+# mod = num2 % num1 
+# print(mod)
+
+# a,b = 4,5
+# print(a**b)
+
+#precedence of arithmetic operator-(),% // **,/ * + -
+# a,b,c = 2,3,4
+# # print(a**b**c)
+# x = 3 + 4 *(4+3)/4 -4
+# print(x)
+
+#relational / comparison operator - >,>=,<,<=,==,!=
+# print(3>4) #false
+# print(34>=31) #true
+# print(10<42) #true
+# print(98<=43) #false
+# print(3==4) #false
+# print(4!=4) #false
+
+#logical operator - and,or,not
+# print(True and True)
+# print(False and True)
+# print(True and False)
+# print(False and False)
+# print("Asif" and 23)
+# print("" and "Asif")
+
+# print(True or True)
+# print(False or True)
+# print(True or False)
+# print(False or False)
+# print("Asif" or 23)
+# print("" or "Asif")
+
+# print(not "Asif")
+# print(not "")
+# print(not False)
+# print(not None)
+
+# print("Hello" or "Python") #"Hello"
+# print("" and "") #""
+# print("Asif" and "") #""
+# print(None or "Js") #js
+
+#bitwise operator
+
+
+
+#asignment operator - +=,-=,*=,/=,%=,

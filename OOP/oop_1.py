@@ -115,41 +115,41 @@
 # print(student_1)
 
 #creating our own data type - Fraction
-class Fraction:
-  def __init__(self,num,den):
-    self.num = num
-    self.den = den
+# class Fraction:
+#   def __init__(self,num,den):
+#     self.num = num
+#     self.den = den
     
-  def __str__(self):
-    return ('{}/{}'.format(self.num,self.den))
+#   def __str__(self):
+#     return ('{}/{}'.format(self.num,self.den))
   
-  def __add__(self,other):
-    new_num = (self.num * other.den + other.num * self.den)
-    new_den = (self.den * other.den)
-    return '{}/{}'.format(new_num,new_den)
+#   def __add__(self,other):
+#     new_num = (self.num * other.den + other.num * self.den)
+#     new_den = (self.den * other.den)
+#     return '{}/{}'.format(new_num,new_den)
   
-  def __sub__(self,other):
-    new_num = (self.num * other.den - other.num * self.den)
-    new_den = (self.den * other.den)
-    return '{}/{}'.format(new_num,new_den)
+#   def __sub__(self,other):
+#     new_num = (self.num * other.den - other.num * self.den)
+#     new_den = (self.den * other.den)
+#     return '{}/{}'.format(new_num,new_den)
   
-  def __mul__(self,other):
-    new_num = self.num * other.num
-    new_den = self.den * other.num
-    return '{}/{}'.format(new_num,new_den)
+#   def __mul__(self,other):
+#     new_num = self.num * other.num
+#     new_den = self.den * other.num
+#     return '{}/{}'.format(new_num,new_den)
   
-  def __truediv__(self,other):
-    new_num = self.num * other.den 
-    new_den = self.den * other.num
-    return '{}/{}'.format(new_num,new_den)
+#   def __truediv__(self,other):
+#     new_num = self.num * other.den 
+#     new_den = self.den * other.num
+#     return '{}/{}'.format(new_num,new_den)
   
-num1 = Fraction(5,8)
-num2 = Fraction(4,5)
-print(num1+num2)
-print(num1-num2)
-print(num1*num2)
-print(num1/num2)
-print(num1)
+# num1 = Fraction(5,8)
+# num2 = Fraction(4,5)
+# print(num1+num2)
+# print(num1-num2)
+# print(num1*num2)
+# print(num1/num2)
+# print(num1)
 
 # complex1 = complex(4,5)
 # complex2 = complex(5,6)

@@ -59,20 +59,36 @@
 #     fact *= i
 #   print(fact)
 
-num = int(input("Enter a number:"))
+# num = int(input("Enter a number:"))
 
-# while num !=0:
-#   dig = num % 10
-#   print(dig,end='')
-#   num = num //10
+# # while num !=0:
+# #   dig = num % 10
+# #   print(dig,end='')
+# #   num = num //10
   
-li = []
-while num % 10 !=0:
-  dig = num % 10
-  li.append(dig)
-  num = num //10
+# li = []
+# while num % 10 !=0:
+#   dig = num % 10
+#   li.append(dig)
+#   num = num //10
 
-print(li)
-str =""
-str.join(li)
-print(str)
+# print(li)
+# str =""
+# str.join(li)
+# print(str)
+
+
+# a = int(input("a = "))
+# b = int(input("b = "))
+# operator = int(input("operator = "))
+# if operator == 1:
+#   print(a+b)
+# elif operator ==2:
+#   print(a-b)
+# elif operator ==3:
+#   print(a*b)
+# else:
+#   print("Invalid Input")
+
+#closest number
+

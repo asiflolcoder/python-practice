@@ -125,3 +125,105 @@ print("Session 1 revise")
 
 # a = None
 # print(a)
+
+
+#tasks - chatgpt
+#age calculator
+# birth_year = int(input("Enter birth year:"))
+# current_year = 2025
+# current_age = current_year - birth_year
+# print(f"You are {current_age} years old")
+
+#temperature converter
+# celcius = float(input("Enter celcius temperature:"))
+# fahrenheit = celcius * (9/5) + 32
+# print(f"celcius:{celcius} fehrenheit:{fahrenheit}")
+
+#bill splitter
+# total_bill = float(input("Enter total amount:"))
+# num_of_frnds = int(input("Enter number of friends:"))
+# pay = total_bill/num_of_frnds
+# print(f"one should pay {pay}") 
+
+#rectangle area
+# length = float(input("enter length:"))
+# width = float(input("enter width:"))
+# area = length * width
+# print(f"area is : {area}")
+
+#string joiner
+# first_name = input("enter first name:")
+# last_name = input("enter last name:")
+# full_name = first_name + " " + last_name
+# print(f"Hello {full_name}")
+
+
+#printing string
+# print("Data","Science","Mentorship","Program","started","By","CampusX",end='\n',sep='-')
+
+# simple interest calculator
+# principle = float(input("Enter principle amount:"))
+# rate = float(input("enter interest rate:"))
+# time = float(input("Enter years :"))
+# interest = (principle * rate * time)/100
+# print(f"Interest :{interest}")
+
+#bmi calculator
+# weight = float(input("Enter weight in kg:"))
+# height_feet = float(input("enter height in feet:"))
+# height = height_feet * 0.3048
+# BMI = weight / (height**2)
+# print(f"BMI is:{BMI:0.2f}")
+
+#number swapper
+# num1 = int(input("Enter a number:"))
+# num2 = int(input("Enter another number:"))
+
+# num1,num2 = num2,num1
+# print(num1,num2)
+
+
+#discount calculator
+# original_price = float(input("Enter price:"))
+# discount_amount = float(input("Enter discount amount:"))/100
+# final_price= original_price - (original_price*discount_amount)
+# print(f"After discount :{final_price}")
+
+#seconds to hours
+# seconds = int(input("Enter seconds:"))
+# minutes = seconds % 60 
+# second = seconds - minutes
+# print(f"{minutes} minutes {second} seconds")
+
+#data summary
+# num1 = float(input("Enter a number:"))
+# num2 = float(input("Enter a number:"))
+# num3 = float(input("Enter a number:"))
+# sum = num1 + num2 + num3
+# average = (num1 + num2 + num3)/3
+# max_num = max(num1,num2,num3)
+# min_num = min(num1,num2,num3)
+# print(f"sum:{sum} average:{average} maximum:{max_num} minimum:{min_num}")
+
+#student info formatter
+# stu_name = input("Enter student name:")
+# age = int(input("Enter age:"))
+# gpa = float(input("Enter gpa:"))
+# print(f"Student: {stu_name}")
+# print(f"Age: {age}")
+# print(f"GPA: {gpa}")
+
+#salary breakdown
+# monthly_salary = float(input("enter monthly salary:"))
+# yearly_salary = monthly_salary * 12
+# tax_amount = yearly_salary * 0.1
+# net_income = yearly_salary - tax_amount
+# print(f"yearly salary:{yearly_salary} tax:{tax_amount} net income:{net_income}")
+
+#currency converter
+# amount_bdt = int(input("Enter amount in BDT:"))
+# usd = amount_bdt / 121.38
+# inr = amount_bdt / 1.37
+# print(f"USD:{usd:0.2f}")
+# print(f"INR:{inr:0.2f}")
+
