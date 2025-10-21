@@ -129,7 +129,41 @@ print("Operators and control flow")
 # print(None or "Js") #js
 
 #bitwise operator
-
+# print(3 & 4)
 
 
 #asignment operator - +=,-=,*=,/=,%=,
+# x = 100
+# print(x)
+# x+=10
+# print(x)
+# x-=20
+# print(x)
+# x*=20
+# print(x)
+# x/=35
+# print(x)
+# x %= 10
+# print(x)
+
+#membership operator - not in ,in(sequence data type based)
+# print(2 in [2,3,4])
+# print(34 in [23,43,22])
+# print(43 not in [23,43,12])
+# print(4 in (3,3,2,4))
+# print(5 in (2,3,2,1))
+# print(1 not in (3,4,3,2))
+# print(1 not in (1,1,1))
+
+#sum of a 4 digit number
+num = int(input("Enter a 4 digit number:"))
+d1 = num % 10
+num = num //10
+d2 = num %10
+num = num //10
+d3 = num % 10
+num = num //10
+d4 = num %10
+num = num //10
+sum = d1 + d2 + d3 + d4
+print("Sum of 4 digits:",sum)
