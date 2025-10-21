@@ -268,3 +268,8 @@ s1 = "John Doe"
 # print("d" in "Delhi")
 # print("a" not in "Asif")
 # print("b" not in "boss")
+
+s1 = "Hello Asif"
+print(max(s1))
+print(min(s1))
+print(len(s1))
