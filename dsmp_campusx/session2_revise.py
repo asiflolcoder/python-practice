@@ -156,14 +156,81 @@ print("Operators and control flow")
 # print(1 not in (1,1,1))
 
 #sum of a 4 digit number
-num = int(input("Enter a 4 digit number:"))
-d1 = num % 10
-num = num //10
-d2 = num %10
-num = num //10
-d3 = num % 10
-num = num //10
-d4 = num %10
-num = num //10
-sum = d1 + d2 + d3 + d4
-print("Sum of 4 digits:",sum)
+# num = int(input("Enter a 4 digit number:"))
+# d1 = num % 10
+# num = num //10
+# d2 = num %10
+# num = num //10
+# d3 = num % 10
+# num = num //10
+# d4 = num %10
+# num = num //10
+# sum = d1 + d2 + d3 + d4
+# print("Sum of 4 digits:",sum)
+
+#if-elseif-else
+# age = 15
+# if age>=18:
+#   print("He can vote")
+# else:
+#   print("He cannot vote")
+# marks = 56
+# if marks >=90:
+#   print("A+")
+# elif marks >=80:
+#   print("A")
+# elif marks >=70:
+#   print("B")
+# elif marks >=60:
+#   print("C")
+# elif marks >=50:
+#   print("D")
+# else:
+#   print("F")
+
+#if esle - login program
+# email = input("Enter email here:")
+# password = input("Enter password:")
+# if email =="asif@gmail.com" and password=="1234":
+#   print("Welcome")
+# elif email =="asif@gmail.com" and password !="1234":
+#   print("Incorrect Password")
+#   password = input("Enter password:")
+#   if password=="1234":
+#     print("Welcome")
+#   else:
+#     print("Beta tumse ho na payega")
+# else:
+#   print("Wrong Password")
+
+#min of 3 numbers
+# num1 = 11
+# num2 = 15
+# num3 = 21
+# if num1 < num2 and num2 <num3:
+#   print(num1," is min")
+# elif num2 < num3 :
+#   print(num2," is min")
+# else:
+#   print(num3," is min")
+  
+#menu driven program
+# menu = input('''
+#              Hi
+#              How can i help you?
+#              1.Enter 1 to create pin
+#              2.Enter 2 to change pin
+#              3.Enter 3 to check balance
+#              4.Enter 4 to withdraw balnce
+#              5.Enter 5 to go back to menu
+#              ''')
+# if menu =="1":
+#   print("Enter pin")
+# elif menu =="2":
+#   print("Change pin")
+# elif menu =="3":
+#   print("Check Balance")
+# elif menu =="4":
+#   print("Withdraw balance")
+# elif menu =="5":
+#   print("Go to menu")
