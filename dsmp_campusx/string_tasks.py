@@ -4,15 +4,18 @@
 #   print(s1[i],end="")
 
 #palindrome check
-s1 = "madame"
-l1 = []
+s1 = "madam"
+l1 = list(s1)
+l2 =[]
 for i in range(len(s1)-1,-1,-1):
-  l1.append(s1[i])
-s2 = "".join(l1)
-if(s1==s2):
-  print("True")
-else:
-  print("False")
+  l2.append(s1[i])
+
+#   l1.append(s1[i])
+# s2 = "".join(l1)
+# if(s1==s2):
+#   print("True")
+# else:
+#   print("False")
 
 #specific character appearing
 # s1 = "Banana"
@@ -58,3 +61,9 @@ else:
 # s = "geEksforGEeks"
 # l = []
 
+# s1 = "Hello Python"
+# for i in range(len(s1)-1,-1,-1):
+#   print(s1[i],sep='',end='')
+
+#remove leading and trailing spaces
+s1 = "   Hello world   "
