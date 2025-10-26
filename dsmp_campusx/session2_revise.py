@@ -277,3 +277,58 @@ print(date)
 # print(today)
 
 # print(dir(datetime))
+
+#loops - for ,while,
+# l1 = [1,2,3,4,5]
+# for x in l1:
+#   print(x)
+  
+# t = (2,3,4,5,6)
+# for x in t:
+#   print(x)
+  
+# s = "Asif"
+# for x in s:
+#   print(x)
+
+# for i in range(1,100,3):
+#   print(i)
+  
+# for i in range(100,0,-1):
+#   print(i)
+
+# for i in range(0,11):
+#   if i == 3:
+#     break
+#   print(i)
+
+# for i in 'geeksforgeeks':
+#   if i == 'e' or i == 's':
+#     continue
+#   print(i)
+  
+# for i in 'geeksforgeeks':
+#   if i =='e' or i =='s':
+#     break
+#   print(i)
+
+#for else with else 
+# for i in "Asif":
+#   if i == "A" or i =="f":
+#     print("Hi")
+# else:
+#   print("Ho")
+
+#nested for loops
+# for i in range(1,5):
+#   print(f"Iteration for {i}")
+#   for j in range(1,5):
+#     print(f"Iteration no {i} at {j}")
+      
+#multiplication table for 5
+# for i in range(4,5):
+#   for j in range(1,11):
+#     multi = i * j
+#     print(f"{i} * {j} = {multi}")
+
+
