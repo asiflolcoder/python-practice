@@ -90,5 +90,143 @@
 # else:
 #   print("Invalid Input")
 
-#closest number
+#temperature check
+# current_temp = float(input("Enter current temp:"))
+# if current_temp <20:
+#   print("It's cold")
+# elif current_temp>=20 and current_temp<=30:
+#   print("It's pleasant")
+# else:
+#   print("It's hot")
+  
+#login system
+# username = input("Enter username:")
+# password = input("Enter password:")
+# if username =="admin" and password == "1234":
+#   print("Login Successful")
+# else:
+#   print("Access denied")
+  
+#evenodd
+# num = int(input("Enter a number:"))
+# if num % 2 ==0:
+#   print("Even")
+# else:
+#   print("Odd")
+                    
+#problem no -4 
+# user_input = input("""
+#     Hi.What do you want?
+#     1.cm to fit
+#     2.km to miles
+#     3.USD to BDT
+#     4.exit
+#   """)
+# if user_input == "1":
+#   cm = float(input("Enter cm value:"))
+#   feet = cm/30.48
+#   print(f"{cm} cm is {feet} feet")
+# elif user_input =="2":
+#   km = float(input("Enter km value:"))
+#   miles = km * 0.6214
+#   print(f"{km} kilo is {miles} miles")
+# elif user_input =="3":
+#   usd = float(input("Enter USD:"))
+#   bdt = usd * 122.53
+#   print(f"{usd} usd is {bdt} bdt")
+# else:
+#   print("Exited")
+  
+#fibonacci series upto 10 terms
+                    
+#movie ticket pricing
+# age = int(input("Enter your age:"))
 
+# if age<18:
+#   if age<12:
+#     print("Ticket is 100")
+#   elif age >=12:
+#     print("Ticket is 150")
+# else:
+#   print("Ticket is 200")
+  
+#number comparison
+# num1 = int(input("Enter a number"))
+# num2 = int(input("Enter a number"))
+# num3 = int(input("Enter a number"))
+# if num1 == num2 or num1 ==num2
+# if num1 > num2 and num1 > num3:
+#   print(num1," is the greatest")
+# elif num2 > num3:
+#   print(num2, " is the greatest")
+# el:
+#   print(num3, " is the greatest")
+# else:
+#   print("They are equal")
+
+#fibonacci 
+# ini = 0 
+# mid = 1 
+# # fin = mid + ini
+# print(ini,mid,sep=',')
+# for i in range(2,10):
+#   fin = mid + ini
+#   print(fin)
+#   ini = mid
+#   mid = fin 
+  
+#factorial of a given number 
+# i = 1
+# fact = 1
+# num = int(input("Enter a number:"))
+# for i in range(num,0,-1):
+#   fact *= num
+#   num = num-1
+# print(fact)
+
+# num = 7864
+# li = []
+# while num !=0:
+#   dig = num % 10
+#   num = num // 10
+#   li.append(dig)
+  
+#guessing a number
+# import random
+# counter = 0
+# rand_num = random.randint(1,10)
+# while True:
+#   counter+=1
+#   user_input = int(input("Guess a number:"))
+#   if user_input == rand_num:
+#     print("You guessed right")
+#     print(f"Guess at {counter} attempt")
+#     break
+#   elif user_input > rand_num:
+#     print("You guessed higher")
+#   elif user_input< rand_num:
+#     print("You guessed lower")
+  
+    # user_input = int(input("Guess again"))
+
+#list filtering
+# numbers = [12,23,21,33,22,33,44,24,142,1,1,414,42,4,42]
+# for i in range(len(numbers)):
+#   if numbers[i]%2==0:
+#     print(numbers[i])
+#   else:
+#     continue
+
+#login with attempts
+
+loop_count =1
+while loop_count<=3:
+  username = input("Enter username:")
+  password = input("Enter password:")
+  if username == "user" and password=="pass123":
+    print("Login successful")
+    break
+  else:
+    username = input("You have 2 chances:")
+    
+    
