@@ -234,3 +234,46 @@ print("Operators and control flow")
 #   print("Withdraw balance")
 # elif menu =="5":
 #   print("Go to menu")
+
+# import math 
+# factorial = math.factorial(5)
+# print(factorial)
+
+# floor = math.floor(34.543)
+# print(floor)
+
+# remainder = math.remainder(10,3)
+# print(remainder)
+
+# sqrt = math.sqrt(16)
+# print(sqrt)
+
+# help('modules')
+
+# import keyword
+# print(keyword.kwlist)
+
+# import random
+# random_number = random.randint(1,100)
+# print(random_number)
+
+# random_choice = random.choice(['Asif','Emon','Hasan','Probin'])
+# print(random_choice)
+
+# shuffle = random.shuffle([1,2,3,4,5,6])
+# print(shuffle)
+
+import datetime
+date = datetime.date(1996,12,11)
+print(date)
+# print(datetime)
+# today = date.today()
+# print(today)
+
+# now = datetime.datetime.now()
+# print(now)
+
+# today = datetime.date.today()
+# print(today)
+
+# print(dir(datetime))
