@@ -50,3 +50,5 @@ print("List and Methods")
 # l2 = list((19.99,23.99,11.11))
 # l3 = list("string")
 # print(l1,l2,l3)
+
+#list accessing through slicing
