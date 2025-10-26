@@ -331,4 +331,37 @@ print(date)
 #     multi = i * j
 #     print(f"{i} * {j} = {multi}")
 
+# l1 =[12,32,23,11,33,22,43]
+# for i in range(len(l1)):
+#   print(l1[i])
 
+#while loops
+# counter = 0
+# while counter <=5:
+#   print(counter)
+#   counter+=1
+
+# s1 = "geeksforgeeks"
+# i = 0 
+# for i in range(len(s1)):
+#   if s1[i] == "e" or s1[i] =="s":
+#     continue
+#   print(s1[i])
+  
+# s1 = "geeksforgeeks"
+# i = 0
+# while i <len(s1):
+#   if s1[i] == "e" or s1[i] =="s":
+#     break
+#   print(s1[i])
+#   i +=1
+  
+# def multiplicationTable(N):
+#     #code here 
+#     for i in range(N,N+1):
+#         for j in range(1,11):
+#             multi = N * j
+#             print(multi,end=' ')
+
+# multiplicationTable(6)
+  
