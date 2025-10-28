@@ -16,6 +16,35 @@ print("Operators and control flow")
 # print(int_div)
 # print(mod)
 
+# a = 10
+# b = 20.5
+# print(a+b)
+
+# a = 10 + 5j
+# b = 20.5
+# print(a+b)
+
+# a = 5 
+# b = 10.5
+# print(a-b)
+# print(b-a)
+
+# x = 10 + 5j
+# y = 20.5
+# print(x-y)
+# print(y-x)
+
+#comparison/relational operator
+# a = 15
+# b = 15.0
+# print(a>b)
+# print(a<b)
+# print(a>=b)
+# print(a<=b)
+# print(a==b)
+# print(a!=b)
+ 
+
 # a ,b = 3,4
 # print(a**b)
 
@@ -364,4 +393,22 @@ print(date)
 #             print(multi,end=' ')
 
 # multiplicationTable(6)
+  
+day = "Sunday"
+match day:
+  case "Saturday":
+    print("Today is saturday")
+  case "Sunday":
+    print("Today is Sunday")
+  case "Monday":
+    print("Today is Monday")
+  case "Tuesday":
+    print("Today is Tuesday")
+  case "Wednesday":
+    print("Today is Wednesday")
+  case "Thursday":
+    print("Today is Thursday")
+  case _:
+    print("Invalid day")
+    
   
