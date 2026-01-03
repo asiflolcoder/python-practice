@@ -66,3 +66,17 @@ import sys
 # print(a,b,c)
 # print(id(a),id(b),id(c))
 
+# name = input("What's your name:")
+# print("Your name is:",name)
+
+#type conversion
+# var1 = int(123)
+# # var2 = int("Asif")
+# var2 = int(12.232)
+# print(var1,var2)
+
+# var3 = float(23)
+# print(var3)
+
+# print("23"+23)
+
