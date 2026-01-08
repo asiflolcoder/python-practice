@@ -1,6 +1,6 @@
-print("Hello Basics From python")
-print("asif",24,sep='-',end='\n')
-print("Hello","World",24,True,end='',sep='')
+# print("Hello Basics From python")
+# print("asif",24,sep='-',end='\n')
+# print("Hello","World",24,True,end='',sep='')
 
 #single line comment
 """High
@@ -79,4 +79,8 @@ import sys
 # print(var3)
 
 # print("23"+23)
+
+print("Data","Science","Mentorship","Progran","By","CampusX",sep='-',end="\n")
+
+# celcius = input(float("Enter celcius value:"))
 
