@@ -1,0 +1,101 @@
+order_id,customer_name,product,category,quantity,unit_price,total,order_date,country,payment_method
+1,Tanvir,Jeans,Fashion,4,1500,6000,2025-01-18,Nepal,Card
+2,Tanvir,Jeans,Fashion,5,1500,7500,2025-01-12,Pakistan,Card
+3,Naila,Keyboard,Electronics,4,1200,4800,2025-01-22,Nepal,Card
+4,Karim,Keyboard,Electronics,3,1200,3600,2025-01-23,Bangladesh,Card
+5,Nahid,Keyboard,Electronics,1,1200,1200,2025-01-22,Nepal,Cash
+6,Ayesha,Mobile,Electronics,1,25000,25000,2025-01-11,Nepal,Cash
+7,Imran,Jeans,Fashion,1,1500,1500,2025-02-03,Nepal,UPI
+8,Karim,Headphones,Electronics,2,3500,7000,2025-01-05,Pakistan,Card
+9,Rahim,Headphones,Electronics,5,3500,17500,2025-01-01,India,UPI
+10,Rafi,Headphones,Electronics,2,3500,7000,2025-01-11,Bangladesh,Card
+11,Imran,T-Shirt,Fashion,2,500,1000,2025-01-26,Bangladesh,UPI
+12,Imran,Jeans,Fashion,3,1500,4500,2025-01-11,Nepal,Cash
+13,Asif,Headphones,Electronics,1,3500,3500,2025-01-05,Nepal,Card
+14,Asif,Mouse,Electronics,5,600,3000,2025-01-01,Nepal,Card
+15,Karim,Keyboard,Electronics,5,1200,6000,2025-01-14,Nepal,Card
+16,Naila,Jeans,Fashion,3,1500,4500,2025-01-25,Pakistan,Cash
+17,Rahim,Keyboard,Electronics,5,1200,6000,2025-01-23,Pakistan,UPI
+18,Naila,Mouse,Electronics,4,600,2400,2025-01-21,Sri Lanka,UPI
+19,Hasan,Headphones,Electronics,2,3500,7000,2025-01-31,Nepal,Card
+20,Sadia,Shoes,Fashion,3,2000,6000,2025-01-13,Nepal,Card
+21,Hasan,Mouse,Electronics,3,600,1800,2025-02-05,Bangladesh,Cash
+22,Karim,Mouse,Electronics,3,600,1800,2025-01-24,Sri Lanka,Cash
+23,Sadia,Shoes,Fashion,2,2000,4000,2025-02-02,Pakistan,Cash
+24,Nahid,T-Shirt,Fashion,4,500,2000,2025-02-02,Bangladesh,Card
+25,Imran,Mobile,Electronics,1,25000,25000,2025-01-23,Pakistan,UPI
+26,Hasan,T-Shirt,Fashion,2,500,1000,2025-02-02,Bangladesh,UPI
+27,Ayesha,Keyboard,Electronics,2,1200,2400,2025-01-15,Pakistan,Cash
+28,Imran,Mouse,Electronics,2,600,1200,2025-01-18,Bangladesh,Cash
+29,Hasan,Keyboard,Electronics,4,1200,4800,2025-01-04,Nepal,Cash
+30,Naila,T-Shirt,Fashion,1,500,500,2025-02-03,Bangladesh,Cash
+31,Naila,Shoes,Fashion,3,2000,6000,2025-01-10,Nepal,Card
+32,Tanvir,Headphones,Electronics,5,3500,17500,2025-01-09,Bangladesh,Card
+33,Nahid,Keyboard,Electronics,2,1200,2400,2025-01-03,Nepal,UPI
+34,Sadia,Jeans,Fashion,3,1500,4500,2025-01-07,Sri Lanka,Card
+35,Naila,Mouse,Electronics,3,600,1800,2025-01-08,Pakistan,Card
+36,Karim,T-Shirt,Fashion,2,500,1000,2025-01-30,Bangladesh,Cash
+37,Karim,Shoes,Fashion,5,2000,10000,2025-01-20,Nepal,UPI
+38,Ayesha,Keyboard,Electronics,5,1200,6000,2025-02-03,Bangladesh,UPI
+39,Rahim,T-Shirt,Fashion,1,500,500,2025-02-03,Nepal,Cash
+40,Naila,Keyboard,Electronics,3,1200,3600,2025-01-13,India,Cash
+41,Tanvir,Mobile,Electronics,1,25000,25000,2025-01-25,India,Card
+42,Asif,Jeans,Fashion,1,1500,1500,2025-01-06,Nepal,Cash
+43,Nahid,T-Shirt,Fashion,5,500,2500,2025-01-28,Bangladesh,UPI
+44,Hasan,Mobile,Electronics,1,25000,25000,2025-01-28,Bangladesh,Cash
+45,Asif,Mobile,Electronics,1,25000,25000,2025-01-16,Pakistan,Cash
+46,Rafi,Mouse,Electronics,1,600,600,2025-01-04,Pakistan,UPI
+47,Tanvir,Keyboard,Electronics,1,1200,1200,2025-01-24,Sri Lanka,UPI
+48,Imran,Mouse,Electronics,3,600,1800,2025-01-09,Bangladesh,Card
+49,Hasan,Keyboard,Electronics,1,1200,1200,2025-01-12,India,Cash
+50,Hasan,Jeans,Fashion,2,1500,3000,2025-01-27,Pakistan,UPI
+51,Rafi,Keyboard,Electronics,4,1200,4800,2025-01-31,Bangladesh,Cash
+52,Ayesha,Shoes,Fashion,1,2000,2000,2025-01-28,Pakistan,Cash
+53,Tanvir,Headphones,Electronics,4,3500,14000,2025-01-21,Bangladesh,Card
+54,Asif,Shoes,Fashion,3,2000,6000,2025-01-13,India,Cash
+55,Asif,Mouse,Electronics,5,600,3000,2025-01-10,Nepal,Cash
+56,Hasan,Headphones,Electronics,5,3500,17500,2025-01-09,Pakistan,Cash
+57,Nahid,Mouse,Electronics,2,600,1200,2025-01-15,Sri Lanka,Card
+58,Karim,T-Shirt,Fashion,2,500,1000,2025-01-14,Pakistan,Cash
+59,Asif,Mobile,Electronics,5,25000,125000,2025-01-30,Bangladesh,UPI
+60,Imran,Shoes,Fashion,3,2000,6000,2025-01-07,Nepal,Cash
+61,Sadia,Keyboard,Electronics,4,1200,4800,2025-01-14,Nepal,UPI
+62,Nahid,Headphones,Electronics,3,3500,10500,2025-01-15,Sri Lanka,Card
+63,Naila,Keyboard,Electronics,1,1200,1200,2025-01-01,India,UPI
+64,Nahid,Mouse,Electronics,5,600,3000,2025-01-15,Sri Lanka,Cash
+65,Hasan,Mouse,Electronics,1,600,600,2025-01-08,Bangladesh,Cash
+66,Ayesha,Jeans,Fashion,2,1500,3000,2025-01-31,Nepal,Card
+67,Sadia,Headphones,Electronics,2,3500,7000,2025-01-11,Sri Lanka,UPI
+68,Karim,Mouse,Electronics,2,600,1200,2025-01-27,Sri Lanka,UPI
+69,Sadia,Headphones,Electronics,4,3500,14000,2025-02-03,India,Cash
+70,Imran,Jeans,Fashion,2,1500,3000,2025-02-05,India,Cash
+71,Nahid,Mobile,Electronics,1,25000,25000,2025-01-08,Pakistan,Cash
+72,Nahid,T-Shirt,Fashion,4,500,2000,2025-02-04,India,UPI
+73,Rahim,T-Shirt,Fashion,1,500,500,2025-01-02,Nepal,UPI
+74,Nahid,Keyboard,Electronics,5,1200,6000,2025-01-11,Nepal,Card
+75,Hasan,Headphones,Electronics,5,3500,17500,2025-01-10,Bangladesh,Cash
+76,Ayesha,Headphones,Electronics,4,3500,14000,2025-01-11,Pakistan,Cash
+77,Ayesha,Mobile,Electronics,2,25000,50000,2025-02-03,India,Cash
+78,Ayesha,Headphones,Electronics,4,3500,14000,2025-01-17,India,Card
+79,Ayesha,Shoes,Fashion,1,2000,2000,2025-01-28,Bangladesh,UPI
+80,Rahim,Mobile,Electronics,3,25000,75000,2025-01-23,Bangladesh,UPI
+81,Tanvir,Shoes,Fashion,2,2000,4000,2025-01-17,India,Card
+82,Naila,Mobile,Electronics,3,25000,75000,2025-01-22,Sri Lanka,Cash
+83,Ayesha,Headphones,Electronics,4,3500,14000,2025-01-21,Pakistan,UPI
+84,Naila,T-Shirt,Fashion,3,500,1500,2025-01-19,India,Card
+85,Rafi,Jeans,Fashion,1,1500,1500,2025-01-18,Pakistan,Card
+86,Karim,Keyboard,Electronics,3,1200,3600,2025-01-05,India,Cash
+87,Rahim,Shoes,Fashion,1,2000,2000,2025-01-14,Nepal,Card
+88,Ayesha,Headphones,Electronics,3,3500,10500,2025-01-12,Pakistan,Cash
+89,Rafi,Mobile,Electronics,2,25000,50000,2025-01-14,Pakistan,Card
+90,Naila,Jeans,Fashion,4,1500,6000,2025-01-03,Pakistan,Card
+91,Hasan,Mouse,Electronics,2,600,1200,2025-01-15,Pakistan,Card
+92,Asif,Mouse,Electronics,5,600,3000,2025-01-10,Pakistan,Cash
+93,Nahid,T-Shirt,Fashion,5,500,2500,2025-01-26,Nepal,Cash
+94,Nahid,Shoes,Fashion,2,2000,4000,2025-01-25,India,Card
+95,Tanvir,Mobile,Electronics,4,25000,100000,2025-01-11,Sri Lanka,UPI
+96,Nahid,Shoes,Fashion,2,2000,4000,2025-01-27,Pakistan,Cash
+97,Tanvir,Shoes,Fashion,1,2000,2000,2025-01-05,Nepal,UPI
+98,Asif,Mouse,Electronics,2,600,1200,2025-02-01,Nepal,Card
+99,Ayesha,Headphones,Electronics,5,3500,17500,2025-01-22,Pakistan,Cash
+100,Rahim,Jeans,Fashion,4,1500,6000,2025-01-09,Pakistan,UPI
