@@ -76,3 +76,68 @@ s = "Hello Python"
 #   print(s[i])
 
 #functions-len,min,max,sorted
+s = "Hello Asif"
+# print(len(s))
+# print(max(s))
+# print(min(s))
+# print(max(''))
+# print(sorted(s,reverse=True))
+
+#more functions - capitalize,title,upper,lower,swapcase
+s = "hello WoRld"
+# print(s.capitalize())
+# print(s.title())
+# print(s.upper())
+# print(s.lower())
+# print(s.swapcase())
+
+#count/index/find
+# print(s.count('o'))
+# print(s.count('l'))
+# # print(s.index("7"))
+# print(s.find('w'))
+# print(s.find(''))
+
+#find the length
+
+# s = input("Enter a string:")
+
+# count = 0
+# for i in s:
+#   count +=1
+#   print(i)
+
+# print("length is:",count)
+
+# s = input('Enter email:')
+
+# username = ""
+# for i in s:
+#   if i =="@":
+#     break
+#   else:
+#     username +=i
+  
+# print("username:",username)
+
+# s = input("enter a string:")
+# c = input("enter a character:")
+# count =0
+# for x in s:
+#   if x == c:
+#     count +=1
+    
+# print(c," count:",count)
+
+# s = input("enter the string:")
+# c = input("enter the character to remove:")
+
+# str1 = ""
+
+# for x in s:
+#   if x ==c:
+#     continue
+#   else:
+#     str1+=x
+    
+# print("modified string:",str1)
