@@ -88,7 +88,37 @@ t = ("Asif",25,True)
 # dig4 = num % 10
 # print(dig1+dig2+dig3+dig4)
 
+#identity operator- is,is not
+# print(12 is 12)
+# print(12 is not 12)
 
+#if else in python
+#login process 
+# email = input("Enter you email:")
+# password = input("Enter password:")
+
+# if email =="asif@gmail.com" and password =="1234":
+#   print("login successful")
+# elif email == "asif@gmail.com" and password !="1234":
+#   print("Wrong password")
+#   password = input("Enter password:")
+#   if password =="1234":
+#     print("Login success")
+# else:
+#   print("Wrong info")
+
+#find the min of 3 given numbers
+num1 = int(input("Enter a number:"))
+num2 = int(input("Enter a number:"))
+num3 = int(input("Enter a number:"))
+
+if num1 < num3 and num1 < num2:
+  print(f"{num1} is the min")
+elif num2 < num1 and num2 < num3:
+  print(f"{num2} is the min")
+else:
+  print(f"{num3} is the min")
+  
 
 
 
@@ -113,3 +143,21 @@ t = ("Asif",25,True)
 #   tax = ctc * 0.3
 #   salary = salary - tax
 
+#problem - 2
+# angle1 = float(input("enter a angle:"))
+# angle2 = float(input("enter a angle:"))
+# angle3 = float(input("enter a angle:"))
+
+# if (angle1+angle2) > angle3 or (angle2 + angle3) >angle1 or (angle3+angle1) >angle2:
+#   print("Can be a triangle")
+# else:
+#   print("Cannot form a triangle")
+  
+# sum_of_angles = angle1 + angle2 + angle3
+# if sum_of_angles == 180 and (angle1>0 and angle2>0 and angle3>0):
+#   print("Can be a triangle")
+# else:
+#   print("Can't be a triangle")
+  
+# cost = float(input("Enter cost price:"))
+# sell = float(input("Enter selling price:"))
