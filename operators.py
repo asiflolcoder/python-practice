@@ -108,18 +108,18 @@ t = ("Asif",25,True)
 #   print("Wrong info")
 
 #find the min of 3 given numbers
-num1 = int(input("Enter a number:"))
-num2 = int(input("Enter a number:"))
-num3 = int(input("Enter a number:"))
+# num1 = int(input("Enter a number:"))
+# num2 = int(input("Enter a number:"))
+# num3 = int(input("Enter a number:"))
 
-if num1 < num3 and num1 < num2:
-  print(f"{num1} is the min")
-elif num2 < num1 and num2 < num3:
-  print(f"{num2} is the min")
-else:
-  print(f"{num3} is the min")
+# if num1 < num3 and num1 < num2:
+#   print(f"{num1} is the min")
+# elif num2 < num1 and num2 < num3:
+#   print(f"{num2} is the min")
+# else:
+#   print(f"{num3} is the min")
   
-
+#menu driven calculator
 
 
 
@@ -161,3 +161,12 @@ else:
   
 # cost = float(input("Enter cost price:"))
 # sell = float(input("Enter selling price:"))
+
+# if cost > sell:
+#   print("Loss")
+# elif cost < sell:
+#   print("Profit")
+# else:
+#   print("Even")
+
+#problem 4 
