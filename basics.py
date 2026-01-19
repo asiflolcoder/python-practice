@@ -80,7 +80,97 @@ import sys
 
 # print("23"+23)
 
-print("Data","Science","Mentorship","Progran","By","CampusX",sep='-',end="\n")
+# print("Data","Science","Mentorship","Progran","By","CampusX",sep='-',end="\n")
 
-# celcius = input(float("Enter celcius value:"))
+# celcius = float(input("Enter celcius value:"))
+# farenheit = (9 * celcius)/5 + 32
+# print("In farenheit:",farenheit)
+
+# num1 = int(input("enter a number:"))
+# num2 = int(input("enter another number:"))
+
+# temp = num1
+# num1 = num2
+# num2 = temp
+# print(f"After swapping:{num1},{num2}")
+
+# x1 = float(input("Enter x1:"))
+# y1 = float(input("Enter y1:"))
+# x2 = float(input("Enter x2:"))
+# y2 = float(input("Enter y2:"))
+
+# euc_distance = ((x1-x2)**2 + (y1-y2)**2)*0.5
+# print("distance is :",euc_distance)
+
+#simple interest calculator
+# p = int(input("Enter amount:"))
+# r = float(input("Enter rate of interest:"))
+# t = int(input("Enter time"))
+
+# interest = p * r * t
+# print("Interest is:",interest-p)
+
+# heads = int(input("Heads-> "))
+# legs = int(input("Legs ->"))
+
+
+#literal - constant value that is stored in variable
+a = 2
+a = 0b1010
+
+# print(a)
+
+# b = 0o456
+# print(b)
+# c =0xA234
+# print(c)
+
+# f1 = 10.34
+# f2 = 12e-3
+# f3 = 1e5
+# print(f1,f2,f3)
+
+# complex1 = 4 + 3j
+# print(complex1)
+
+# a = None
+# print(a)
+# b = True
+# print(b +3)
+
+
+#question no 6
+# heads = int(input("heads->"))
+# legs = int(input("legs->"))
+
+# dogs = (legs - 2 * heads)/2
+# chickens = heads - dogs
+
+# print()
+
+#question 7
+# num = int(input("Enter n :"))
+# sum = (num * (num+1)*(2*num+1))/6
+# print("Sum is:",sum)
+
+#question 8
+# num1 = int(input("enter 1st num:"))
+# num2 = int(input("enter 2nd num:"))
+# n = int(input("Enter n:"))
+# diff = num2 - num1 
+
+# a = num1 + (n-1)*diff
+# print(a)
+
+#question 9
+
+# x1 = int(input("Enter x1:"))
+# y1 = int(input("Enter y1:"))
+# x2 = int(input("Enter x2:"))
+# y2 = int(input("Enter y2:"))
+
+# num = x1 * y2 + y1 * x2
+# den = y1 * y2
+
+# print("{}/{}".format(num,den))
 
