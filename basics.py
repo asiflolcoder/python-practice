@@ -174,3 +174,11 @@ a = 0b1010
 
 # print("{}/{}".format(num,den))
 
+#question 10
+# print("Dimentions of the milk tank")
+# H = int(input("H = "))
+# L = int(input("L = "))
+# B = int(input("B = "))
+# print("Dimensions of the glass")
+# h = int(input("h = "))
+# r = int(input("r = "))
