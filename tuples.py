@@ -132,3 +132,61 @@ t1 = ("Asif",24,True,[1,2,3])
 # tu[10]=10
 
 #deleting items
+# t = (10,20,30,40)
+# del t
+# print(t)
+
+#operations on tuple
+t1 = (10,20,30)
+t2 = (10,20,30)
+# print(t1 + t2)
+# # print(t1 * t2)
+# print((10,20)* 5)
+# print(t1 == t2)
+# print(t1 == t2)
+# print(5 in t1)
+# print(10 in t1)
+# print(5 not in t1)
+# for i in t1:
+#   print(i)
+
+#tuple functions- max/sum/min/max/len/sorted
+# t1 = (12,3,4,2,5)
+# t2 = ("Asif","Probin","Emon")
+# print(len(tu))
+# print(max(t1))
+# # print(max(t2))
+# print(min(t1))
+# # print(min(t2))
+# print(sum(t1))
+# # print(sum(t2))
+# print(sorted(t1,reverse=True))
+# print(sorted(t2))
+
+# print(t1.count(2))
+
+# t1 = (10,20,30,40,30)
+# print(t1.count(30))
+# print(t1.index(50))
+
+t1 = (10,20,("Asif","Probin"),(1,2,3),(20,30,40))
+# for i in t1:
+#   for j in t1:
+#     if isinstance(j,tuple):
+#       print(j)
+#   print(i)
+# for item in t1:
+#   if isinstance(item,tuple):
+#     for j in item:
+#       print(j)
+#   else:
+#     print(item)
+# t2 = ("Asif",(10,20),(1,2,3),[5,10,15])
+# for i in t2:
+#   if isinstance(i,tuple or list):
+#     for j in i:
+#       print(j)
+#   else:
+#     print(i)
+
+#list vs tuple
