@@ -182,3 +182,32 @@ a = 0b1010
 # print("Dimensions of the glass")
 # h = int(input("h = "))
 # r = int(input("r = "))
+
+#literals 
+# int_val = 103343
+# bin_val = 0b1001
+# dec_val = 0o234
+# hex_val = 0xA23
+# print(bin_val,type(bin_val))
+# print(dec_val,type(dec_val))
+# print(hex_val,type(hex_val))
+
+# f1 = 1232.4323
+# f2 = 2232e2
+# f3 = 232e-3
+# print(f1,type(f1))
+# print(f2,type(f2))
+# print(f3,type(f3))
+
+# a = 7 + 4j 
+# b = complex(3,4)
+# print(a,type(a),b,type(b))
+
+# bool1 = True
+# bool2 = False
+# print(bool1 + 4)
+# print(bool2 - 4)
+
+a = None
+print(a,type(a))
+a = 100
