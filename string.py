@@ -141,3 +141,128 @@ s = "hello WoRld"
 #     str1+=x
     
 # print("modified string:",str1)
+
+
+#string revise
+# s1 = 'Hello Asif'
+# s2 = "Hello Python"
+# s3 = """Hi
+#   i am asif"""
+# print(s1,s2,s3)
+# print("Hello I am 24 year's old")
+# print('Hello "Probin ')
+# s1 = str(2+3j)
+# print(s1)
+
+#accessing string - index,slicing
+s1 = "Hello Bangladesh"
+# print(s1[0])
+# print(s1[-4])
+# print(s1[len(s1)-3])
+# print(s1[1:4])
+# print(s1[::-1])
+# print(s1[::])
+# print(s1[:4])
+# print(s1[-1:-5:-1])
+
+#string is immutable - can't edit the string
+s1 = "Hello Bangladesh"
+# s1[0] = "As"
+# print(s1)
+# s1[1:3] = "Asif"
+# print(s1[0])
+# del s1[0] 
+# del s1
+# print(s1)
+#operations on string
+#arithmetic - +/*
+s1 = "Hello"
+# print(s1*3)
+# print(s1 + "Asif" + 23)
+# print("Mumbai"+"Delhi")
+# print("Asif"+"Asif")
+#relational - <,<=,>=,>,==,!=
+# print("Asif">"Himel")
+# print("Asif"<"probin")
+# print("Boss" == "Boss")
+# print("Boss">"Asif")
+# print("Asif"!="asif")
+# print("Cat">"Catch")
+# print("cat">"CAT")
+#string formatting
+# name = "Asif"
+# age = 24
+# print(f"My name is {name} and age is {age}")
+# str1 ="My name is {} and age is {}".format(name,age)
+# print(str1)
+
+# print("Asif" and "Hasan" and "Probin")
+# print("" and "Asif" and "9")
+# print("Asif" or False)
+# print("" or "AS")
+# print(not "Asif")
+# print(not "")
+# for i in "Hello World":
+#   print(i)
+
+# for i in range(1,11):
+#   print(f"Hello World {i}")
+
+#membership operator - in,not in
+# print("H" in "Hello")
+# print("D" in "delhi")
+# print("a" not in "Asif")
+
+#common function - len,max,min,sorted
+s1 = "hello world"
+# print(len(s1))
+# print(max(s1))
+# print(min(s1))
+# print(sorted(s1,reverse=True))
+# print(s1.capitalize())
+# print(s1.title())
+# print(s1.upper())
+# print(s1.lower())
+# print(s1.swapcase())
+# print(s1.count("o"))
+
+#find the length of a given string
+# s = input("Enter a string:")
+# counter = 0
+# for i in s:
+#   counter += 1
+  
+# print(f"length of string is : {counter}")
+
+# email = input("Enter your email:")
+
+#string revise
+
+# str1 = 'Hello Asif'
+# str2 = "Hello Python"
+# str3 ="""Multiline
+# string"""
+# print(str1,str2,str3)
+# print("Asif 's")
+# print('Asif"ssf')
+# str1 = str("Asif")
+# print(str1)
+s1 = "Hello Python"
+# print(s1[4])
+# print(s1[-4])
+# print(s1[len(s1)-3])
+#slicing - [::]
+# print(s1[1:5])
+# print(s1[::-1])
+# print(s1[::])
+# print(s1[:5])
+# print(s1[-3:-5:-1])
+
+#s1[0] ="A"
+# s2 = s1[0:4]
+# print(s2)
+# s = "Asif"
+# # del s[0]
+# del s
+# print(s)
+#operations on string
