@@ -39,4 +39,11 @@ s1 = "Hello Python"
 # del s1
 # print(s1)
 
+#operation on string
+# s1 = "Asif"
+# s2 = "23"
+# print(s1 + s2)
+# print(s1 * 2)
+# print("*" * 10)
 
+#relational operator
