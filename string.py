@@ -266,3 +266,75 @@ s1 = "Hello Python"
 # del s
 # print(s)
 #operations on string
+# print("Asif"+" "+"Asif")
+# print("Asif"*3)
+# print("Asif">="asif")
+# print("Dhaka"<"Pune")
+# print("cat">"catch")
+#print("Asif"=="asifa")
+# print("Asif"and"Asifa")
+# print("sif"and"")
+# print("" and "Asif")
+# print("Asif"or"Shifa")
+#print(not 23)
+# s1 = "Hello Asif"
+# for i in s1:
+#   print(i)
+#print("D" in "Deshi")
+# print(12 and 23 and 34)
+# print(23 and "" and 34)
+#common functions-min,max,len,sorted
+# s1 = "Hello Asif"
+# print(len(s1))
+# print(max(s1))
+# print(min(s1))
+# print(sorted(s1,reverse=True))                                                
+# s1 = "hello World"
+# print(s1.capitalize())
+# print(s1.upper())
+# print(s1.lower())
+# print(s1.title())
+# print(s1.swapcase())
+# s2 = "Hello Python"
+# print(s2.swapcase())
+# print(s2.lower())
+# print(s2.upper())
+# print(s2.title())
+# print(s2.capitalize())
+#string formatting- format,f-string
+# name = "Asif"
+# age = 25
+# print("My name is {} and age is {}".format(name,age))
+# print(f"My name is {name} and age is {age}")
+#functions to check if a string meets a criteria
+# s = "HelloWorld"
+# print(s.isalnum())
+# s = "!123Asif"
+# print(s.isalnum())
+
+
+
+
+
+# email = "haque.mdasif1501@gmail.com"
+# username =""
+# for i in email:
+#   if i =='@':
+#     break
+#   else:
+#     username +=i
+# print("Username :{}".format(username))
+
+#count the frequency of a particular character in a string
+# s = "hello how are you"
+# char = 'h'
+# count = 0
+# for i in s:
+#   if i == char:
+#     count +=1
+
+# print(f"Frequency:{count}")
+  
+#remove a particular character from a string
+# s = input("Enter a string:")
+# char = input("Enter a char:")
