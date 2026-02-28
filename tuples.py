@@ -190,3 +190,191 @@ t1 = (10,20,("Asif","Probin"),(1,2,3),(20,30,40))
 #     print(i)
 
 #list vs tuple
+# import time
+
+# l = list(range(10000000))
+# t = tuple(range(1000000))
+
+# start_time = time.time()
+
+# for i in l :
+#   a = i * 5 
+# print("time taken for l:",time.time()-start_time)
+  
+# start_time = time.time()
+# for j in t:
+#   b = j * 5
+# print("time taken for t:",time.time()-start_time
+
+#memory
+# import sys
+# l = list(range(1000))
+# t = tuple(range(1000))
+
+# print("Loop size:",sys.getsizeof(l))
+# print("Tuple size:",sys.getsizeof(t))
+
+#tuple revise 
+
+#special syntax - 
+# a,b,c = (10,20,30)
+# # print(a,b,c)
+# a,b = ("Asif",23,10)
+# print(a,b)
+# name,age,isStudent = ("Asif",25,True)
+# print(isStudent)
+# print(age)
+# print(name)
+# a = 1
+# b = 2 
+# a,b = b,a
+# print(a,b)
+
+#tuple tasks
+# test_list = [(5,6),(5,7),(5,8),(6,10),(7,13)]
+# new_list =[]
+# for i in test_list:
+#   for j in test_list:
+#     if i[0] == j[0]:
+#       new_list.append()
+
+# t1 = (1,2,3,0)
+# t2 = (0,1,2,3)
+
+# for i in t1:
+#   if t1[i] != t2[i]:
+    
+#   else:
+#     print(f"{t1} and {t2} are same")
+
+#question 4
+
+
+#tuple revise
+t1 = (12,23,22,11,12)
+# # print(t1)
+# print(type(t1))
+# print(t1[0])
+# t2 = ()
+# print(t2)
+# t3 = (23)
+# print(t3,type(t3))
+# t4 =(12,)
+# print(t4,type(t4))
+# t5 = ("Asif",24,True)
+# print(t5)
+# t6 = (12,3,42,("A","B"))
+# print(t6)
+# t7 = tuple("Asif")
+# print(t7)
+
+#accessing a tuple
+t1 = (10,20,"Asif",True,29.99)
+# print(t1[3])
+# print(t1[-3])
+# print(t1[len(t1)-2])
+
+# print(t1[1:4])
+# print(t1[::])
+# print(t1[::-1])
+# print(t1[:-4:-1])
+#t1[0] = 100
+# del t1[1]
+# del t1
+# print(t1)
+
+#t1[5]=30
+
+#operations on tuple
+#rithmetic - +,*
+# t1 = (12,2,23,21,"Asif")
+# t2 =(10,20,39,True)
+# print(t1+t2)
+
+# t1 =("Asif",24,True)
+# print(t1*4)
+
+t1 = (10,20,30,40)
+t2 = (10,20,30,40)
+# print(t1 > t2)
+# print(t1 == t2)
+# print(t1 is t2)
+# print(12 in t1)
+# for i in t1:
+#   print(i)
+# person = ("Asif",22,"Bangladesh")
+# name,age,country = person
+# print(f"Name:{name},Age:{age},Country:{country}")
+
+#tuple functions-len,max,min,sum,sorted
+t1 = (10,20,30,40,50,10)
+t2 = ("Asif",True,19.99)
+# print(len(t1))
+# print(len(t2))
+# print(max(t1))
+# #print(max(t2))
+# print(min(t1))
+# print(sum(t1))
+# print(sum(t2))
+#print(sorted(t1))
+#print(sorted(t2,reverse=True))
+
+# print(t1.count(10))
+#print(t1.count(100))
+# print(t1.index(100))
+numbers = (1,2,3,2,4,2,5)
+# print(numbers.count(2))
+# count = 0
+# for i in numbers:
+#   if i == 2:
+#     count +=1
+# print(count)
+# print(numbers.index(4))
+# index = -1
+# for i in numbers:
+#   if i != 4:
+#     index+=1
+# print(index)
+
+#tuple unpacking
+# t1 = (10,20,30,40)
+# name,age,num1,num2 = t1
+# print(name,age,num1,num2)
+# a,c = (1,2,3)
+# print(a,c)
+# a = 20
+# b = 40
+# b,a = a,b
+# print(a,b)
+# t = (1,2,3,4,5)
+# l 
+# t1 = tuple(l)= []
+# for i in t:
+#   l.append(i)
+# l.append(10)
+# print(l)
+# print(t1)
+  
+#tuple unpacking
+# a,b,*others = (10,20,30,40,50)
+# print(a,b,others)
+# name,age,*country =("Asif",24,"Bangladesh","India","China")
+# print(name,age,country)
+
+#zipping tuples
+# t1 = (10,20,30,40,50)
+# t2 = (100,200,300,99)
+# print(tuple(zip(t1,t2)))
+
+#data = (1,2,(3,4),(5,6,7))
+# print(data[2][1])
+# print(data[3][2])
+# for i in data:
+#   if isinstance(i,tuple):
+#     for item in i:
+#       print(item)
+#   else:
+#     print(i)
+
+#find the second largest element
+t = (10,5,20,8,15)
